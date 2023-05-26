@@ -9,4 +9,4 @@ The Arduino IDE alongside the Brain & Servo libraries are required to run this p
 You may find these at:
 - [Arduino](https://github.com/arduino/arduino-ide) - IDE to run the .ino file included
 - [Brain](https://github.com/kitschpatrol/Brain) - Parser library for the serial output on the T pin
-- [Servo](https://github.com/arduino-libraries/Servo/tree/master) - Library to communicate with the servo (located on pin 7)
+- [Servo](https://github.com/arduino-libraries/Servo/tree/master) - Library to communicate with the servo (located on pin 9)
