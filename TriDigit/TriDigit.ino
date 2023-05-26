@@ -13,12 +13,12 @@ void setup() {
   // Attach the servo to pin 9.
   servo.attach(9);
 
-  // Initialize the servo position to the center (90 degrees).
+  // Initialize the servo position to the center for the arm (90 degrees).
   servo.write(90);
 }
 
 void loop() {
-  // Expect packets about once per second.
+  // Expect packets about once per second (might have to be changed for different arduino models/PCs).
   if (brain.update()) {
     // Read the attention value.
     int attention = brain.readAttention();
